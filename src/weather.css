@@ -1,0 +1,47 @@
+.backgroundStyle{
+    background-image: url("../public/cloud.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.glassmorphicStyle{
+    background-color:rgba(111,165,203,0.5) !important    ;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+    width:auto;
+    margin: 20px;
+}
+
+.appBarStyle {
+    background-color: white !important;
+}
+
+.feature{
+    color: #ffffffc7 !important;
+    font-size: 14px;
+}
+
+.value{
+    color: white !important;
+    font-size: 18px;
+}
+
+.location{
+    color: white !important;
+    font-size: 28px !important;
+}
+
+.day{
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.addColor {
+    color: white !important;
+}
